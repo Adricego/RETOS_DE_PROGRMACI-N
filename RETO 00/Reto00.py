@@ -14,15 +14,18 @@ igual que el anterior, para esto
 se usan tres comillas dobles ("").
 """
 
-name  = "Juan" #Asignación de variable con nombre y valor
-age   = 25    #Sin asignarle nombre a la variable (o sea, sin nombre)
+# Constante (se escriben en mayúsculas)
+PI = 3.1416
 
-age = 25
-pi =  3.14159
-name = "Diego"
-hola = True
-chao = False
+# Variables con todos los tipos de datos primitivos en Python
 
+entero = 1          # Entero (int) 
+decimal = 1.1       # flotante (float)
+booleano = True     # Booleano (bool)
+texto = "hola"      # Cadena de texto (str)
+nulo = None         # tipo especial (NoneType)
+
+# Variables y f-strings
 lenguaje = "Python"
 
 print (f"hola, {lenguaje}")
