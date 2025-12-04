@@ -9,5 +9,5 @@ def fizzbuzz (n):
         else:
             print(i)
 
-fizzbuzz
+print(fizzbuzz(20))
 
